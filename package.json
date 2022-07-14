@@ -1,5 +1,5 @@
 {
-  "name": "elementlib",
+  "name": "this-is-a-test-lib",
   "version": "0.0.1",
   "description": "element plus lib",
   "files": [
@@ -14,7 +14,7 @@
     }
   },
   "private": false,
-  "author": "facexl@foxmail.com",
+  "author": "438944342@qq.com",
   "license": "MIT",
   "homepage": "https://github.com/facexl/libtest",
   "repository": {
@@ -25,7 +25,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "rebuild":"babel dist -d dist"
+    "rebuild":"babel dist -d dist",
+    "p":"npm publish --access public"
   },
   "dependencies": {
     "element-plus": "^2.2.9",
