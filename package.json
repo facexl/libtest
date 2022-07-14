@@ -13,7 +13,9 @@
       "require": "./dist/elementlib.umd.js"
     }
   },
-  "private": true,
+  "private": false,
+  "author": "facexl@foxmail.com",
+  "license": "MIT",
   "homepage": "https://github.com/facexl/libtest",
   "repository": {
     "type": "git",
