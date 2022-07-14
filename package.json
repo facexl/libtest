@@ -14,6 +14,11 @@
     }
   },
   "private": true,
+  "homepage": "https://github.com/facexl/libtest",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:facexl/libtest.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
