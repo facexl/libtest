@@ -7,12 +7,6 @@
   ],
   "main": "./dist/elementlib.umd.js",
   "module": "./dist/elementlib.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/elementlib.es.js",
-      "require": "./dist/elementlib.umd.js"
-    }
-  },
   "private": false,
   "author": "438944342@qq.com",
   "license": "MIT",
