@@ -1,6 +1,6 @@
 {
   "name": "this-is-a-test-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "element plus lib",
   "files": [
     "dist"
@@ -23,9 +23,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit && vite build && babel dist -d dist",
     "preview": "vite preview",
-    "rebuild":"babel dist -d dist",
     "p":"npm publish --access public"
   },
   "dependencies": {
