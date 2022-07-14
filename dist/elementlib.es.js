@@ -13493,7 +13493,6 @@ var elScrollbar = "";
 var elPopper = "";
 var elSelect = "";
 var elFormItem = "";
-var index = "";
 var Search_vue_vue_type_style_index_0_scoped_true_lang = "";
 
 var _export_sfc = function _export_sfc(sfc, props) {
@@ -13745,6 +13744,7 @@ var _sfc_main = {
   }
 };
 
-var Search = /* @__PURE__ */_export_sfc(_sfc_main, [["__scopeId", "data-v-7d4c6836"]]);
+var Search = /* @__PURE__ */_export_sfc(_sfc_main, [["__scopeId", "data-v-e796feda"]]);
 
 exports["default"] = Search;
+var index = "";

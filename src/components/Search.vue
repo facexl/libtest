@@ -65,7 +65,6 @@
     </div>
 </template>
 <script setup>
-import '@/styles/index.less'
 const props = defineProps({
     searchOptions:Array
 })
