@@ -57,7 +57,6 @@
               v-if="showOpenTrigger"
             >
               {{isOpen?'收起':'展开'}}
-              <el-icon class="receive-icon" :class="{'open-icon':isOpen}"><arrow-down /></el-icon>
             </span>
             <slot></slot>
             </div>
