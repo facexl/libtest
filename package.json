@@ -22,7 +22,8 @@
     "preview": "vite preview",
     "p": "npm publish --access public",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "prepare": "husky install"
   },
   "dependencies": {
     "element-plus": "^2.2.9",
