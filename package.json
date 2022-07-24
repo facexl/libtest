@@ -23,7 +23,8 @@
     "p": "npm publish --access public",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test":"echo hello"
   },
   "dependencies": {
     "element-plus": "^2.2.9",
